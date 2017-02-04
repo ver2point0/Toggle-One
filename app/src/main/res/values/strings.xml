@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Toggle One</string>
+    <string name="noon_day_sun">Noon day sun</string>
+    <string name="toggle_one">Toggle One, Be Here</string>
+    <string name="business_name">Business Name</string>
+    <string name="slogan">A web presence in a flash</string>
+    <string name="business_slogan">Business Slogan</string>
+    <string name="horizontal_divider">Horizontal divider</string>
+    <string name="business_address_label">Business address label</string>
+    <string name="address">Address:</string>
+    <string name="business_address">Business address</string>
+    <string name="_123_main_street_nowhere_ocean_01001">123 Main Street, Nowhere, Ocean 01001</string>
+    <string name="business_telephone_label">Business telephone label</string>
+    <string name="phone">Phone:</string>
+    <string name="business_phone">Business phone</string>
+    <string name="_555_123_4567">555-123-4567</string>
+    <string name="business_web_label">Business web label</string>
+    <string name="website">Website:</string>
+    <string name="business_url">Business url</string>
+    <string name="toggle_one_com">toggleone.com</string>
+    <string name="business_hours_label">Business hours label</string>
+    <string name="hours">Hours:</string>
+    <string name="business_hours">Business hours</string>
+    <string name="mon_fri_10_6">Mon-Fri 10-6</string>
+</resources>

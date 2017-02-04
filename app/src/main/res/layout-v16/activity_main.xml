@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ver2point0.android.toggleone.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight">
+
+    <ImageView
+        android:id="@+id/toggleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/noon_day_sun"
+        android:src="@drawable/unsplash_alex"
+        />
+
+    <TextView
+        android:id="@+id/bizNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_name"
+        android:text="@string/toggle_one"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/biz_name_size"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/bizSloganTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_slogan"
+        android:fontFamily="sans-serif"
+        android:text="@string/slogan"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/slogan_size"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/dividerHorizontalImageView"
+        android:layout_width="100dp"
+        android:layout_height="5dp"
+        app:srcCompat="?attr/dividerHorizontal"
+        android:contentDescription="@string/horizontal_divider"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/addressLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_address_label"
+        android:fontFamily="sans-serif"
+        android:text="@string/address"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_size"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_address"
+        android:text="@string/_123_main_street_nowhere_ocean_01001"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/header_content_size"
+        android:fontFamily="serif"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/telephoneLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_telephone_label"
+        android:fontFamily="sans-serif"
+        android:text="@string/phone"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/telephoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_phone"
+        android:fontFamily="serif"
+        android:text="@string/_555_123_4567"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/header_content_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/webLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_web_label"
+        android:fontFamily="sans-serif-small"
+        android:text="@string/website"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/webTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_url"
+        android:fontFamily="serif"
+        android:text="@string/toggle_one_com"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/header_content_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/hoursLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_hours_label"
+        android:fontFamily="sans-serif"
+        android:text="@string/hours"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_size"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/opHoursTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/business_hours"
+        android:fontFamily="serif"
+        android:text="@string/mon_fri_10_6"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/header_content_size"
+        android:textAlignment="center"/>
+</LinearLayout>
